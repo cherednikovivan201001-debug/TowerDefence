@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38aee8019f1f70941ad744af3271bfdf, type: 3}
+  m_Name: TowerCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::TowerCatalog
+  _towerList:
+  - {fileID: 11400000, guid: 4f9103540d808d4408f651131e554ab0, type: 2}
+  - {fileID: 11400000, guid: c71efd22c283993429d9410fe1854f72, type: 2}
+  - {fileID: 11400000, guid: 0130f8c2bed87824d86203d2e47f6fda, type: 2}
+  - {fileID: 11400000, guid: eed8ba170e9c7f64f9907047a8e4e2eb, type: 2}
+  _enemyPrefab: {fileID: 0}
+  _towerPrefabs:
+  - {fileID: 8176172554303041917, guid: b84dc8b95d0014442859aa0cb3650969, type: 3}
+  - {fileID: 6033631607727206737, guid: 44d04559f048281469184c08fba7d927, type: 3}
+  - {fileID: 2423439470721222021, guid: 293feee7af2fdc74180dc74c1c90942d, type: 3}
+  - {fileID: 3364010969430714761, guid: ab84033bd3d39ba4ea7a9760e3a60f10, type: 3}

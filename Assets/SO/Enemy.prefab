@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3050589098777898989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361102953330055474}
+  - component: {fileID: 590146484193801077}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &361102953330055474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050589098777898989}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.5, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4278035723158267255}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &590146484193801077
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050589098777898989}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &991168593352087677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 361102953330055474}
+    m_Modifications:
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231847039885454458, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      propertyPath: m_Name
+      value: Devil_Red (Mobile)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5231847039885454458, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803746170077206438}
+    - targetCorrespondingSourceObject: {fileID: 5231847039885454458, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2034703308046405645}
+  m_SourcePrefab: {fileID: 100100000, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+--- !u!4 &4278035723158267255 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3936133187004136714, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+  m_PrefabInstance: {fileID: 991168593352087677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4997332833896461319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5231847039885454458, guid: c2172f0dfcf8ba640bbcebf3e3f8ed2e, type: 3}
+  m_PrefabInstance: {fileID: 991168593352087677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &803746170077206438
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4997332833896461319}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1.9109604
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.45548022, z: 0}
+--- !u!114 &2034703308046405645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4997332833896461319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab1354612fa31c54696b75b13f39c085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  _range: 10
+  _damage: 1
+  _searchTime: 1
+  _shootPoint: {fileID: 0}
+  _rotationSpeed: 3
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 100
+  _towerData: []
+  _shootefect: {fileID: 0}
+  _deathEffect: {fileID: 0}
+  Type: 0
